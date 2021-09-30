@@ -1,5 +1,5 @@
 const ROUTES = {
-    ROUTE_MAIN: "/inicio",
+    ROUTE_MAIN: "/",
 }
 
 const LINKS = {
