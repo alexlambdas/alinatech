@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alinatech/static/css/main.00927138.chunk.css",
-    "main.js": "/alinatech/static/js/main.63ff1623.chunk.js",
-    "main.js.map": "/alinatech/static/js/main.63ff1623.chunk.js.map",
+    "main.js": "/alinatech/static/js/main.030be4f3.chunk.js",
+    "main.js.map": "/alinatech/static/js/main.030be4f3.chunk.js.map",
     "runtime-main.js": "/alinatech/static/js/runtime-main.339699f2.js",
     "runtime-main.js.map": "/alinatech/static/js/runtime-main.339699f2.js.map",
     "static/css/2.2b8668b0.chunk.css": "/alinatech/static/css/2.2b8668b0.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.2b8668b0.chunk.css",
     "static/js/2.b22594c1.chunk.js",
     "static/css/main.00927138.chunk.css",
-    "static/js/main.63ff1623.chunk.js"
+    "static/js/main.030be4f3.chunk.js"
   ]
 }
