@@ -82,9 +82,10 @@ function Navbar(props){
                             </span>
                     </div>
             </Link>
-            <Link
+            <a
                 style={styles.sidenavOpen_a_custom}
-                to={ROUTES.ROUTE_MAIN}>
+                href={LINKS.LINK_APP_SUPPORT}
+                target="_blank">
                     <div 
                         style={styles.sideNavItemYoutube} 
                         className="sideNavItemCustomIcon"
@@ -101,7 +102,7 @@ function Navbar(props){
                                 Soporte
                             </span>
                     </div>
-            </Link>
+            </a>
             <Link
                 style={styles.sidenavOpen_a_custom}
                 to={ROUTES.ROUTE_MAIN}>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ROUTES } from "../../resources/Routes";
+import { ROUTES, LINKS } from "../../resources/Routes";
 
 import styles from "./Styles";
 
@@ -25,12 +25,13 @@ function MenuItems(props){
                 className="menuItem">
                     Servicios
             </Link>
-            <Link 
-                to={ROUTES.ROUTE_MAIN}
+            <a 
+                href={LINKS.LINK_APP_SUPPORT}
                 style={styles.menuItem}
+                target="_blank"
                 className="menuItem">
                     Soporte
-            </Link>
+            </a>
             <Link 
                 to={ROUTES.ROUTE_MAIN}
                 style={styles.menuItem}

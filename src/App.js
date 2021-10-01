@@ -29,7 +29,13 @@ function App(){
                                     openNav={openNav}
                                     handleOpenNav={handleOpenNav}/>
                             )
-                        }}/>
+                    }}/>
+                    <Route exact path="/alinatech">
+                        <Redirect to={ROUTES.ROUTE_MAIN}/>
+                    </Route>
+                    <Route exact path="/">
+                        <Redirect to={ROUTES.ROUTE_MAIN}/>
+                    </Route>
                 </Switch>
             </BrowserRouter>
         </div>

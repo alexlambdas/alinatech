@@ -3,7 +3,9 @@ import Navbar from "../Navbar/Navbar";
 import MenuItems from "../MenuItems/MenuItems";
 import WelcomeCarousel from "../WelcomeCarousel/WelcomeCarousel";
 import OurServices from "../OurServices/OurServices";
+import WelcomeCarouselTitle from "../WelcomeCarouselTitle/WelcomeCarouselTitle";
 import WelcomeCarouselStories from "../WelcomeCarouselStories/WelcomeCarouselStories";
+import WelcomeSupport from "../WelcomeSupport/WelcomeSupport";
 
 import styles from "./Styles";
 
@@ -21,10 +23,12 @@ function Welcomepage(props){
                     <MenuItems />
                     <WelcomeCarousel />
                     <OurServices />
+                    <WelcomeSupport />
                     <div 
                         style={styles.containerCarouselStories}
                         className="containerCarouselStories">
-                        <WelcomeCarouselStories />
+                            <WelcomeCarouselTitle />
+                            <WelcomeCarouselStories />
                     </div>
                 </div>
             </div>

@@ -11,13 +11,14 @@ const styles = {
     menuItem: {
         paddingTop: "20px",
         paddingBottom: "20px",
-        paddingLeft: "10x",
-        paddingRight: "10px",
+        //paddingLeft: "10x",
+        //paddingRight: "10px",
         width: "140px",
         textAlign: "center",
         textDecoration: "none",
         fontSize: "14px",
-        fontWeight: "500",
+        //letterSpacing: "1px",
+        //fontWeight: "500",
     }
 }
 

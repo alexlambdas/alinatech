@@ -50,7 +50,7 @@ function WelcomeCarousel(){
                     items: 1,
                 }
             }}
-            showDots={true}
+            //showDots={true}
             sliderClass="" 
             slidesToSlide={1}
             swipeable 

@@ -3,7 +3,8 @@ const styles = {
         display: "flex",
         flexDirection: "column",
         width: "100%",
-        backgroundColor: "#ffffff",
+        backgroundColor: "#f5f5f5",
+        paddingBottom: "60px",
     },
     ourServicesTitle: {
         display: "flex",
@@ -11,8 +12,8 @@ const styles = {
         justifyContent: "center",
         alignItems: "center",
         marginTop: "60px",
-        marginBottom: "60px",
-        backgroundColor: "#ffffff",
+        marginBottom: "40px",
+        backgroundColor: "#f5f5f5",
     },
     ourServicesContainerIcons: {
         display: "flex",
